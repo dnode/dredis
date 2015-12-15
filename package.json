@@ -1,0 +1,16 @@
+{
+  "name": "dredis",
+  "description": "Connect Redis and extend the client with convenient JSON and cache functions",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dnode/dredis",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "src/lib.js",
+  "dependencies": {
+    "redis": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/dredis.git"
+  }
+}
