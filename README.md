@@ -6,9 +6,4 @@
 let client = require('dredis')('url');
 client.setJSON('key', 'value');
 client.getJSON('key', (err, value) => {});
-client.cache(
-  'key',
-  (callback) => { callback('value'); },
-  (value) => {}
-);
 ```

@@ -1,7 +1,7 @@
 {
   "name": "dredis",
-  "description": "Connect Redis and extend the client with convenient JSON and cache functions",
-  "version": "1.0.0",
+  "description": "Connect Redis and extend the client with convenient JSON functions",
+  "version": "2.0.0",
   "homepage": "http://github.com/dnode/dredis",
   "license": "MIT",
   "readmeFilename": "README.md",
