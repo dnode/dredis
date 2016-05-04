@@ -3,7 +3,7 @@
 
 # Example
 ```javascript
-let client = require('dredis')('url');
+const client = require('dredis')('url');
 client.setJSON('key', 'value');
 client.getJSON('key', (err, value) => {});
 ```

@@ -3,7 +3,7 @@
 const redis = require('redis');
 
 module.exports = (url) => {
-  let client = redis.createClient(url);
+  const client = redis.createClient(url);
 
   client.setJSON = (key, value, callback) => {
     value = JSON.stringify(value);
