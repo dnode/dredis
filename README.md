@@ -4,6 +4,7 @@
 # Example
 ```javascript
 const client = require('dredis')('url');
-client.setJSON('key', 'value');
-client.getJSON('key', (err, value) => {});
+
+await client.setJSON('key', 'value');
+const value = await client.getJSON('key');
 ```

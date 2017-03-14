@@ -1,16 +1,21 @@
 {
   "name": "dredis",
+  "version": "2.1.0",
   "description": "Connect Redis and extend the client with convenient JSON functions",
-  "version": "2.0.0",
-  "homepage": "http://github.com/dnode/dredis",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "main": "src/lib.js",
-  "dependencies": {
-    "redis": "^2.4.1"
+  "homepage": "http://github.com/dnode/dredis",
+  "author": {
+    "name": "Sharaal",
+    "email": "developer@dragonprojects.de",
+    "url": "http://dragonprojects.de"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dnode/dredis.git"
+  },
+  "readmeFilename": "README.md",
+  "main": "src/lib.js",
+  "dependencies": {
+    "redis": "^2.4.1"
   }
 }
