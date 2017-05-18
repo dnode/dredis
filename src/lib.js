@@ -2,7 +2,7 @@
 
 const redis = require('redis');
 
-module.exports = (url) => {
+module.exports = url => {
   const client = redis.createClient(url);
 
   client.setJSON = (key, value, callback) => {
@@ -11,7 +11,7 @@ module.exports = (url) => {
       client.set(key, value, callback);
     } else {
       return new Promise((resolve, reject) => {
-        client.set(key, value, (err) => {
+        client.set(key, value, err => {
           if (err) {
             reject(err);
           } else {
